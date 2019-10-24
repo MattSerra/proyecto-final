@@ -15,22 +15,28 @@ body {
   font-family: 'Khand', sans-serif;
   border:;
   height:;
-  width: 100%;
+  width: 101%;
   margin-left: -10px;
-  margin-top: -9px;
+  margin-top:;
   display: flex;
   justify-content: space-between;
   flex-direction: row;
   position: fixed;
-  padding: 5px;
   box-shadow: 1px 3px 10px  #555 ;
+  z-index: 5;
+
 
 }
 
 .contentestatico {
+ 
+  display: flex;
+  flex-direction: row;
   background: ;
-  border:;
+
+  
   width:;
+  margin-left: 3px;
   
 
 }
@@ -39,7 +45,7 @@ body {
   background: ;
   border:;
   width:;
-  margin-right: 30px;
+  margin-right:;
   margin-top: 5px;
   
 }
@@ -48,11 +54,12 @@ body {
   border:;
   width:;
  font-family: 'Cinzel', serif;
-
-  margin-left: 330px; 
+  margin-right:30px;
+  margin-left:; 
   margin-top:-11px;
   margin-bottom: -10px;
-  padding-top: 7px;
+  padding-top: 5px;
+  
  
 
 } 
@@ -65,26 +72,19 @@ body {
 .navbar {
  
 background-color: inherit;
-  width:;
-  height: ;
-  margin-right:;
-  margin-top: ;
-
 display: flex;
 flex-direction: row;
-justify-content: flex-end;
-
 
 }
 
 /* Enlaces del menu */
 .navbar a {
-  float: right;
+  
   font-size: 20px;
-  color: #565FEB;
+  color: black;
   text-align: left;
-  padding: 16px 16px ;
-  padding-bottom: 10px;
+  padding: 15px 10px 10px 15px;
+  
 
   text-decoration: none;
 
@@ -94,9 +94,10 @@ justify-content: flex-end;
 
 /* Submenu */
 .subnav {
+
   
-  float: right;
-  overflow: hidden;
+  
+  
 
 
 }
@@ -104,47 +105,81 @@ justify-content: flex-end;
 /* Submenu boton */
 .subnav .subnavbtn {
   font-size: 20px;
-  border: none;
+  border : none;
   outline: none;
-  color: #565FEB;
-  padding: 16px 16px ;
-  padding-bottom: 10px;
+  color: black;
+  padding: 14px 10px 10px 10px;
   background-color: inherit;
   font-family: inherit;
-  margin: 0;
+
+
+  
 
 
 }
 
 /* Agrego color y tamaño con cursor */
 .navbar a:hover, .subnav:hover .subnavbtn  {
-  background-color: ;
-  transform: scale(1.2,1.2);
-  }
+  color: #565FEB;
+  border-top: 2px solid #565FEB;
 
+
+
+
+  }
 
 /* Estilo del contenido del Submenu */
 .subnav-content {
   display: none;
-  position:absolute; 
-  background-color: #565FEB;
-  width: ;
+  position:absolute;
+  background-color: #fff;
+  width:;
   z-index: 1;
+  border: 1px solid #EEEFF8;
+  transform: translate(-40px, 1px);
 
+
+
+
+
+  
+  
+
+ 
 
 }
 
 /* Estilo de los enlaces del Submenu*/
 .subnav-content a {
-  float: left;
-  color: white;
+  
+  color: black;
   text-decoration: none;
+  border-right: 1px solid #EEEFF8;
+    border-top: 2px solid #565FEB;
+
+
+
+
+
+      
+
+
+    
 }
 
 /* Agrego color cuando me posiciono con el cursor para el contenido del Submenu */
 .subnav-content a:hover {
-  background-color: #fff;
-  color: black;
+  background-color:;
+  color: #565FEB;
+  padding-top: 13px;
+
+
+
+
+
+
+
+
   
 
 
@@ -155,7 +190,11 @@ justify-content: flex-end;
   display: flex;
   flex-direction: row;
 
+
+  
+
 }
+
 
 /*titulo*/
 
@@ -171,6 +210,8 @@ justify-content: flex-end;
 }
 
 /*contacto*/
+
+
 
 
 .titulotel{
@@ -288,10 +329,74 @@ margin: 20px;
 .portada {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content:center;
+  transform: translateY(-124px);
+  position: static;
+  margin-bottom: -100px;
 
 }
 
+
+/* botones del index */
+
+.cajabotones {
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 20px;
+
+  
+}
+
+.boton1 {
+  
+  padding: 20px;
+  
+  width: 220px;
+  border-radius: 0px 20px 0px 20px;
+  background-color: #565FEB;
+  color: white;
+  box-shadow: 5px 5px 10px  grey;
+  font-size: 20px;
+  font-family: 'Comfortaa', cursive;
+  text-align: center;
+
+
+}
+
+.boton2 {
+  
+  padding: 20px;
+  
+  width: 220px;
+  height: 250px;
+  border-radius: 0px 20px 0px 20px;
+  background-color: #565FEB;
+  color: white;
+    box-shadow: 5px 5px 10px grey;
+     font-size: 20px;
+  font-family: 'Comfortaa', cursive;
+  text-align: center;
+
+  
+
+}
+
+.boton3 {
+  
+  padding: 20px;
+  width: 220px;
+  border-radius: 0px 20px 0px 20px;
+  background-color: #565FEB;
+  color: white;
+    box-shadow: 5px 5px 10px grey;
+     font-size: 20px;
+  font-family: 'Comfortaa', cursive;
+  text-align: center;
+
+
+}
 
 
 
