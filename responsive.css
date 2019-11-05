@@ -1,0 +1,136 @@
+@media screen and (max-width: 360px) {
+
+
+
+
+
+.container {
+	grid-row-gap: 20px;
+
+	grid-template-columns: 360px ;
+	grid-template-rows: auto auto auto auto auto;
+	grid-template-areas: "head"
+						 "imagen"
+						 "logo"
+						 "btn1"
+						 "btn2"
+						 "btn3"
+						 "foot"
+						 
+}
+
+
+
+
+
+
+	.contentestaticologo {
+
+  display: none;
+  
+  
+}
+.contentestaticotitulo {
+
+	display: none;
+	}
+
+
+.portada{
+	display: none;
+
+
+}
+
+
+
+.box2{
+	height: 35px;
+}
+
+
+
+
+.primera{
+
+	font-family: 'Cinzel', serif;
+	text-align: center;
+	font-size: 10px;
+	display: flex;
+	  flex-direction: column;
+  align-items: center; 
+}
+
+
+
+
+.subnav:hover .subnav-content {
+  display: flex;
+  flex-direction: column;
+
+
+  
+
+}
+
+.subnav-content {
+	transform: translate(0px,0px);
+}
+
+
+.subnav-content a { 
+	width: auto;
+	border-top: 1px solid #EEEFF8;
+	
+
+}
+
+.subnav .subnavbtn  { 
+font-size: 14px;
+padding-bottom: 5px;
+}
+
+.navbar a {
+	font-size: 14px;
+
+}
+
+
+.finalindex {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	text-align: center;
+
+	height: auto;
+	padding: 0px;
+	padding-bottom: 15px;
+	margin-bottom: -20px;
+	margin-top: 10px;
+}
+
+
+
+
+.boton1 {
+	width: 300px;
+	align-content: center;
+	font-size: 15px;
+	padding: 15px;
+	height: auto;
+
+}
+
+.boton1 a {
+	font-size: 15px;
+
+}
+
+
+
+
+
+
+
+
+}
