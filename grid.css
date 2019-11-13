@@ -13,55 +13,50 @@
 						}
 
 
-.box1, .box2, .box3, .box4, .box5, .box6 { 
-
-	
-
-}
 
 
-.box1 {
+.container__header {
 	grid-area: head;
 
 }
 
-.box2 {
+.container__portada {
 	grid-area: imagen;
 }
 
-.boxtitle {
+.container__logoresponsive {
 	grid-area: logo;
 }
 
-.box3 {
+.container__btn--tratamientos {
 	grid-area: btn1;
 
 
 }
 
-.box4 {
+.container__btn--preguntas {
 	grid-area: btn2;
 }
 
-.box5 {
+.container__btn--conocenos {
 	grid-area: btn3;
 }
 
-.box6 {
+.container__footer {
 	grid-area: foot;
 }
 
-.container .box3 {
+.container .container__btn--tratamientos {
 	display: flex;
 	justify-content: center;
 }
 
-.container .box4 {
+.container .container__btn--preguntas {
 	display: flex;
 	justify-content: center;
 }
 
-.container .box5 {
+.container .container__btn--conocenos {
 	display: flex;
 	justify-content: center;
 }
