@@ -1,0 +1,26 @@
+{
+  "name": "proyecto-final",
+  "version": "1.0.0",
+  "description": "Este es mi Proyecto final de Coderhouse",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss styleproyecto.scss styleproyecto.css",
+ "watch-css": "nodemon -e scss -x \"npm run build-css\""
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MattSerra/proyecto-final.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MattSerra/proyecto-final/issues"
+  },
+  "homepage": "https://github.com/MattSerra/proyecto-final#readme",
+  "devDependencies": {
+    "node-sass": "^4.13.0",
+    "nodemon": "^1.19.4"
+  }
+}
