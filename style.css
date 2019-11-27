@@ -1,12 +1,16 @@
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 768px) {
   .list-group {
     display: none;
   }
 }
 
 
+body {
+  font-size: 17px;
+}
 
+}
 .list-group {
   z-index: 1;
 
@@ -16,17 +20,22 @@
 .icons {
   font-size: x-large;
   
+  
 
 }
 
 .icon:hover {
   transform: scale(1.6,1.6);
+  color: #6D75EE;
   
   
 
 
 }
 
+.icon-white {
+  color: white;
+}
 
 
 header {
@@ -55,12 +64,20 @@ main {
   background-color: #565FEB;
   color: white;
   box-shadow: 5px 5px 15px  grey;
+  font-size: 18px;
  ; }
 
 .btn:hover {
   background-color: #6D75EE;
-  transform: scale(1.08, 1.08);
+  transform: scale(1.06, 1.06);
   color: white; }
+
+.btn:active {
+color: #565FEB;
+background-color: white;
+border: 2px solid #565FEB;
+
+}
 
 
 .title {
@@ -74,7 +91,9 @@ main {
 }
 
 
-
+a:hover {
+  text-decoration: none;
+}
 a {
   color: #565FEB;
 }
@@ -83,12 +102,16 @@ a {
   color: #565FEB;
 }
 
+.color-ppal {
+  color: #565FEB;
+}
+
 
 
 .dropdown-item:hover {
   color: white;
 
-  background:#565FEB;
+  background:#6D75EE;
   
   
 }
@@ -101,6 +124,11 @@ a {
 }
 
 
+.consultas-box {
+  background: #565FEB;
+  border-radius: 20px 20px 20px 20px;
+
+}
 
 
 
